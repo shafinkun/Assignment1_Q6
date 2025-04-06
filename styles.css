@@ -56,7 +56,7 @@ p {
     border-radius: 50%;
     text-align: center;
     font-size: 2rem;
-    background: #4f537b;
+    background: #fd5d93;
 }
 
 .timeline-icon i {
@@ -90,7 +90,7 @@ p {
 }
 
 .badge {
-    background: #4f537b;
+    background: #fd5d93;
     padding: 4px 8px;
     border-radius: 3px;
     font-size: 12px;
@@ -105,23 +105,13 @@ p {
     font-size: 11px;
 }
 
-/* colors for different types */
 .primary .badge, .primary .timeline-icon {
     background: #1d8cf8 !important;
 }
-
-.info .badge, .info .timeline-icon {
-    background: #11cdef !important;
+.danger .badge, .danger .timeline-icon {
+    background: #fd5d93 !important;
 }
 
 .success .badge, .success .timeline-icon {
     background: #00bf9a !important;
-}
-
-.warning .badge, .warning .timeline-icon {
-    background: #ff8d72 !important;
-}
-
-.danger .badge, .danger .timeline-icon {
-    background: #fd5d93 !important;
 }
